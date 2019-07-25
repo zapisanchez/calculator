@@ -8,6 +8,11 @@ func main() {
 	var ticketPrice float64
 	var totalCost float64
 
+	var a int
+	a = 0
+
+	fmt.Print("a: ", a)
+
 	fmt.Println("************** TICKET CALCULATOR **************")
 	fmt.Print("Ticket value: ")
 	fmt.Scanln(&ticketPrice)
